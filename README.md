@@ -5,7 +5,11 @@
 
 ### 🎥  Video Demo
 
-https://github.com/user-attachments/assets/82c16a1e-5e41-4d46-9ca1-028bc1930d97
+
+
+https://github.com/user-attachments/assets/1253317b-7bab-4128-a441-3ea727de53e3
+
+
 
 
 ### 🚀 Built with FastAPI + Streamlit + Docker + HuggingFace Spaces
@@ -31,10 +35,10 @@ Both **frontend (Streamlit)** and **backend (FastAPI)** are fully dockerized and
 ### 🔗 Docker Hub Images
 
 * 🌐 **Frontend Image**
-  [https://hub.docker.com/repository/docker/bufonjoker/frontend-task6/general](https://hub.docker.com/repository/docker/bufonjoker/frontend-task6/general)
+  [Streamlit App Docker Image](https://hub.docker.com/r/bufonjoker/frontend-task6)
 
 * ⚙️ **Backend Image**
-  [https://hub.docker.com/repository/docker/bufonjoker/backend-task6/general](https://hub.docker.com/repository/docker/bufonjoker/backend-task6/general)
+  [FastAPI App Docker Image](https://hub.docker.com/r/bufonjoker/backend-task6)
 
 ---
 
