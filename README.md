@@ -45,10 +45,10 @@ Both **frontend (Streamlit)** and **backend (FastAPI)** are fully dockerized and
 ## 🤗 Live Deployments (HuggingFace Spaces)
 
 * 🎨 **Streamlit App**
-  [https://huggingface.co/spaces/BUFON-JOKER/frontend-task6](https://huggingface.co/spaces/BUFON-JOKER/frontend-task6)
+  [Streamlit App Huggingface Spaces Url](https://huggingface.co/spaces/BUFON-JOKER/frontend-task6)
 
 * ⚡ **FastAPI Backend**
-  [https://bufon-joker-backend-task6.hf.space](https://bufon-joker-backend-task6.hf.space)
+  [Fast API App Huggingface Spaces Url](https://bufon-joker-backend-task6.hf.space)
 
 ---
 
