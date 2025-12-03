@@ -74,13 +74,17 @@ uv sync
 
 ```bash
 cd frontend
-streamlit app.py
+```
+```bash
+streamlit run app.py
 ```
 
 ## ⚙️ Backend (FastAPI)
 
 ```bash
 cd backend
+```
+```bash
 uvicorn main:app --reload
 ```
 
