@@ -1,0 +1,13 @@
+[project]
+name = "annual-medical-cost-ai-system-task6"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit>=1.51.0",
+    "fastapi>=0.123.5",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "uvicorn>=0.38.0",
+]
