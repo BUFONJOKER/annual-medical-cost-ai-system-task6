@@ -56,7 +56,8 @@ Both **frontend (Streamlit)** and **backend (FastAPI)** are fully dockerized and
 
 ```bash
 git clone https://github.com/BUFONJOKER/annual-medical-cost-ai-system-task6.git
-
+```
+```bash
 cd annual-medical-cost-ai-system-task6
 ```
 
