@@ -2,6 +2,12 @@
 
 # 🏥 Annual Medical Cost AI System
 
+
+### 🎥  Video Demo
+
+https://github.com/user-attachments/assets/82c16a1e-5e41-4d46-9ca1-028bc1930d97
+
+
 ### 🚀 Built with FastAPI + Streamlit + Docker + HuggingFace Spaces
 
 This project predicts **Annual Medical Cost** for patients using Machine Learning.
