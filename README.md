@@ -2,6 +2,16 @@
 
 # 🏥 Annual Medical Cost AI System
 
+
+### 🎥  Video Demo
+
+
+
+https://github.com/user-attachments/assets/1253317b-7bab-4128-a441-3ea727de53e3
+
+
+
+
 ### 🚀 Built with FastAPI + Streamlit + Docker + HuggingFace Spaces
 
 This project predicts **Annual Medical Cost** for patients using Machine Learning.
@@ -25,20 +35,20 @@ Both **frontend (Streamlit)** and **backend (FastAPI)** are fully dockerized and
 ### 🔗 Docker Hub Images
 
 * 🌐 **Frontend Image**
-  [https://hub.docker.com/repository/docker/bufonjoker/frontend-task6/general](https://hub.docker.com/repository/docker/bufonjoker/frontend-task6/general)
+  [Streamlit App Docker Image](https://hub.docker.com/r/bufonjoker/frontend-task6)
 
 * ⚙️ **Backend Image**
-  [https://hub.docker.com/repository/docker/bufonjoker/backend-task6/general](https://hub.docker.com/repository/docker/bufonjoker/backend-task6/general)
+  [FastAPI App Docker Image](https://hub.docker.com/r/bufonjoker/backend-task6)
 
 ---
 
 ## 🤗 Live Deployments (HuggingFace Spaces)
 
 * 🎨 **Streamlit App**
-  [https://huggingface.co/spaces/BUFON-JOKER/frontend-task6](https://huggingface.co/spaces/BUFON-JOKER/frontend-task6)
+  [Streamlit App Huggingface Spaces Url](https://huggingface.co/spaces/BUFON-JOKER/frontend-task6)
 
 * ⚡ **FastAPI Backend**
-  [https://bufon-joker-backend-task6.hf.space](https://bufon-joker-backend-task6.hf.space)
+  [Fast API App Huggingface Spaces Url](https://bufon-joker-backend-task6.hf.space)
 
 ---
 
@@ -46,7 +56,8 @@ Both **frontend (Streamlit)** and **backend (FastAPI)** are fully dockerized and
 
 ```bash
 git clone https://github.com/BUFONJOKER/annual-medical-cost-ai-system-task6.git
-
+```
+```bash
 cd annual-medical-cost-ai-system-task6
 ```
 
@@ -63,13 +74,17 @@ uv sync
 
 ```bash
 cd frontend
-streamlit app.py
+```
+```bash
+streamlit run app.py
 ```
 
 ## ⚙️ Backend (FastAPI)
 
 ```bash
 cd backend
+```
+```bash
 uvicorn main:app --reload
 ```
 
