@@ -1,4 +1,3 @@
-
 ---
 
 # 🏥 Annual Medical Cost AI System
@@ -46,25 +45,32 @@ Both **frontend (Streamlit)** and **backend (FastAPI)** are fully dockerized and
 # 📥 Clone This Repository
 
 ```bash
-git clone https://github.com/BUFONJOKER/task6.git
+git clone https://github.com/BUFONJOKER/annual-medical-cost-ai-system-task6.git
+
+cd annual-medical-cost-ai-system-task6
 ```
 
 ---
 
 # ▶️ Run Locally Using **uv**
+```bash
+uv sync
+```
+
+
 
 ## 🎨 Frontend (Streamlit)
 
 ```bash
 cd frontend
-uv run streamlit app.py
+streamlit app.py
 ```
 
 ## ⚙️ Backend (FastAPI)
 
 ```bash
 cd backend
-uv run uvicorn main:app --reload
+uvicorn main:app --reload
 ```
 
 ---
@@ -127,10 +133,4 @@ Runs at: **[http://localhost:8000](http://localhost:8000)**
 
 ---
 
-If you want, I can also add:
-✅ Badges (Docker, HuggingFace, Python version)
-✅ Project architecture diagram
-✅ API endpoints documentation (Swagger style)
-✅ Screenshots or GIF previews
 
-Just tell me!
